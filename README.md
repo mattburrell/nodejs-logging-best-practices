@@ -2,6 +2,8 @@
 
 This project demonstrates best practices for logging using an Express application using Winston as an example.
 
+Read the accompanying Medium article [here](https://medium.com/@fullstackmatt/log-smarter-not-harder-best-practices-for-optimal-logging-ca1864c53bc2).
+
 ## Features
 
 - **Express**: Web framework for Node.js.
