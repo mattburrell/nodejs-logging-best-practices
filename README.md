@@ -21,8 +21,8 @@ Read the accompanying Medium article [here](https://medium.com/@fullstackmatt/lo
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/mattburrell/nodejs-logging-best-practices
+   cd nodejs-logging-best-practices
    ```
 
 2. Install the dependencies:
@@ -51,6 +51,7 @@ npm test
 
 - Access the service at `http://localhost:3000/process-order/:orderId`.
 - Replace `:orderId` with the order ID you want to process.
+- To simulate an error use a non-numeric order ID.
 
 ## Code Overview
 
