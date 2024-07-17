@@ -32,13 +32,6 @@ describe("GET /process-order/:orderId", function () {
     expect(response.body).toHaveProperty("error", "Something went wrong!");
     expect(loggerErrorSpy).toHaveBeenCalledTimes(1);
 
-    const expectedLogEntry = {
-      code: "INVALID_ORDER_ID",
-      context: `Processing order context: ${badOrderId}`,
-      level: "error",
-      message: "Error caught at top level: Order ID must be a number",
-    };
-
     const logMessage = loggerErrorSpy.mock.calls[0][0];
     const logMeta = loggerErrorSpy.mock.calls[0][1];
 
